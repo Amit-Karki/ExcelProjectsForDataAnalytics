@@ -107,7 +107,7 @@ This KPI displays the total revenue based on the selected:
 
 **🧮 Formula Used:**
 
-<img width="506" height="130" alt="image" src="https://github.com/user-attachments/assets/db83fc43-6a23-4b1a-885d-c03a21481500" />
+<img width="506" height="130" alt="image" src="https://github.com/user-attachments/assets/db83fc43-6a23-4b5a-a5d0-c03a21481500" />
 
 The formula was used to calculate the revenue for each branch. The formula shown above is for Branch A.
 
