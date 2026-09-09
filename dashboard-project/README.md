@@ -71,9 +71,67 @@ Gross Profit of each branches - Bar Chart
 
 This KPI helps us to find on which metrics is the customer count is more.
 
+- Most Used Payment Method
+  Formula:
+  
+  We first calculated the total amount of payment which have happened in each payment method.
+  <img width="559" height="133" alt="Screenshot 2026-09-10 014042" src="https://github.com/user-attachments/assets/f482267e-4ae9-47e5-b110-e6084d4c0c5a" />
+
+Then we used max function to find the max value.
+ <img width="270" height="148" alt="image" src="https://github.com/user-attachments/assets/b8591bfe-5f93-4d35-b96b-6f8c308e0efd" />
+
+Overview: 
+<img width="1212" height="238" alt="image" src="https://github.com/user-attachments/assets/556fc09f-f35e-4d61-8823-a4e72f3c1478" />
 
 
+- Gross Profit
+Formula:
+<img width="548" height="168" alt="image" src="https://github.com/user-attachments/assets/e2f36513-6c7a-44e8-888b-c3b2907e572c" />
+
+- Average Rating:
+  Formula:
+  <img width="514" height="158" alt="image" src="https://github.com/user-attachments/assets/336ae2b6-1296-4849-a7af-e9fef81cde43" />
+
+- Most Purchased Category and Least Purchased Category:
+  First:
+  <img width="674" height="169" alt="image" src="https://github.com/user-attachments/assets/26e096f5-e589-4ea8-806f-4373c32b182a" />
+
+Used SUMFIS to add the quantity of the goods purchased in each category using logical conditons.
+
+Then for most Purchased category:
+First found max purchase category value.
+<img width="158" height="110" alt="image" src="https://github.com/user-attachments/assets/8b75a5f4-4fa1-49d2-8c9e-893795b4094e" />
+
+After:
+Used the value to find the index of the adjacent row which is the most purchased category.
+<img width="331" height="140" alt="image" src="https://github.com/user-attachments/assets/afbccdb9-d4d4-4128-8698-9781006f0136" />
+
+For least Purchased category: 
+Same concept used first finding the minimum value then using index and match functions to display least purchased category.
+<img width="331" height="140" alt="image" src="https://github.com/user-attachments/assets/3a89b58c-bbe1-4e59-b52e-002189e4234f" />
+
+## Data Validation:
+
+<img width="695" height="86" alt="image" src="https://github.com/user-attachments/assets/a743d7e9-826a-46f6-a44b-73a8e371f9d4" />
+
+Data Validation is implemented forcing the users to input the value on the basis of the given options only. We protected the entire sheets but didn't protected the cells used for data validation.
+
+Data Validation consists of:
+Gender(M,F,All)
+Branches(A,B,C,All)
+Payment Method(Cash,Ewallet,Credit card,All)
+Customer type(Member,Normal,All)
+
+## Challenges faced
+
+- Sheet Protection: I didn't knew that we have to disable the edit objects features so that the charts can't be moved or deleted while the protection sheet feature is on. I used Claude ai for solving this problem.
+
+- Text box issue: When I typed the formula in the text box and then formatted it like increasing the text size then the formula didn't synced leading to the consistent value despite I changed the input like branch, gender etc. I tried to resolve it by simply disabling graphic accelerating, manipulating with code but it didn't worked and at last I have to use merge and center and border feature to display the KPIS properly.
+
+- Data validation & trailing space: The data validation range of gender(M) contains trailing spaces which leads to not work when gender = M as formulas calculating total customers depending upon this value leading to display the total customer as zero.
 
 
+Conclusion:
+This project can be great for the central and regional managers helping to gain insights about the total revenue, gross profit, total customers etc on basis of different criteria like gender, payment methods etc helping to make better business decisions like launching a discount offer on basis of the most purchased item category etc.
 
 
