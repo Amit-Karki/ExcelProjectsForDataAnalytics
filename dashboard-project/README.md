@@ -134,7 +134,7 @@ This KPI helps identify which combination of filters has the highest number of c
 
 To calculate the most used payment method, I first calculated the total number of transactions for each payment method.
 
-<img width="559" height="133" alt="Screenshot 2026-09-10 014042" src="https://github.com/user-attachments/assets/f482267e-45a5-a5d4-c03a21481500" />
+<img width="559" height="133" alt="Screenshot 2026-09-10 014042" src="https://github.com/user-attachments/assets/f482267e-4ae9-47e5-b110-e6084d4c0c5a" />
 
 After calculating the values for each payment method, I used the `MAX` function to find the highest value.
 
