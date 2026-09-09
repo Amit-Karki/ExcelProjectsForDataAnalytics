@@ -9,7 +9,7 @@ This dashboard is designed for supermarket branch managers and regional managers
 The data used for this project is taken from kaggle.
 
 Dashboard File:
-My Final Dashboard File is My final dashboard is in [supermarket_dashboard.xlsx](supermarket_dashboard.xlsx).
+My Final Dashboard File is My final dashboard is in [supermarket_dashboard.xlsx](SuperMarketDashboard.xlsx).
 
 
 
