@@ -22,8 +22,7 @@ live by the criteria they select.
   even when service quality is good.
 
 ##  🎥 Dashboard Demo
-
-https://github.com/user-attachments/assets/d856975a-d0cf-486c-b063-47b5478e0f70
+https://github.com/user-attachments/assets/adf6ae8a-7707-4d6d-870b-29cccec8068d
 
 This dashboard lets the user filter by **Customer type** (Rare, Frequent, All), 
 **Gender** (M, F, All), **Flight type** (Business, Personal, All), and 
