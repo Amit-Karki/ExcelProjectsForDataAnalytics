@@ -34,6 +34,12 @@ This dashboard lets the user filter by **Customer type** (Rare, Frequent, All),
 - A correlation chart ranking which in-flight service factors most affect 
   satisfaction, sorted in descending order
 
+## Graphs used:
+<img width="394" height="230" alt="Image" src="https://github.com/user-attachments/assets/86446719-6338-4143-8e69-4effbee8ae29" />
+
+This is a bar chart used to show the top factor driving the Customer Satisfaction in descending order. The used input is given below:
+
+
 ##  🛠️ Excel Tools & Skills Used
 - **Formulas & Functions**🧮 — AVERAGEIFS and SUMIFS with dynamic wildcard 
   logic (`IF(filter="All","*",filter)`) to calculate Average Age and Total 
