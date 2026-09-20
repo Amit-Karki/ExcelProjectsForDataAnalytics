@@ -41,6 +41,7 @@ This is a bar chart used to show the top factor driving the Customer Satisfactio
 <img width="801" height="160" alt="Image" src="https://github.com/user-attachments/assets/a5d004be-3979-4a8b-acd1-69a11d1780c5" />
 
 The behind the scene formula is: 
+<img width="395" height="100" alt="Image" src="https://github.com/user-attachments/assets/ceee1902-05f3-4b18-916a-c54d60ab4385" />
 
 The bar chart shows that for this specific case the customers who gave high score in terms of Inflight entertainment tends to be more satisfied. Also the Ease of online booking and online boarding tends to be negatively coorelated.
 
