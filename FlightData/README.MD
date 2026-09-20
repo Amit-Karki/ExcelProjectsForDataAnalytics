@@ -45,6 +45,9 @@ The behind the scene formula is:
 
 The bar chart shows that for this specific case the customers who gave high score in terms of Inflight entertainment tends to be more satisfied. Also the Ease of online booking and online boarding tends to be negatively coorelated.
 
+Pie Chart:
+<img width="366" height="229" alt="Image" src="https://github.com/user-attachments/assets/fa4e933f-d390-4020-916d-c6588dd0e1e5" />
+This chart shows the percent of 
 
 
 
