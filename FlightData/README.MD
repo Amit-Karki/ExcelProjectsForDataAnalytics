@@ -24,12 +24,12 @@ live by the criteria they select.
 ##  🎥 Dashboard Demo
 https://github.com/user-attachments/assets/adf6ae8a-7707-4d6d-870b-29cccec8068d
 
-This dashboard lets the user filter by **Customer type** (Rare, Frequent, All), 
-**Gender** (M, F, All), **Flight type** (Business, Personal, All), and 
-**Class** (Eco, Eco Plus, Business, All). Based on these selections, it shows:
-- Total Customers
-- Average Customer Age
-- Customer Satisfaction % and Dissatisfaction %
+## Input Validation:
+. Passenger type
+. Gender 
+. Travel type 
+. Travel Class
+
 - A correlation chart ranking which in-flight service factors most affect 
   satisfaction, sorted in descending order
 
@@ -45,8 +45,18 @@ The behind the scene formula is:
 The bar chart shows that for this specific case the customers who gave high score in terms of Inflight entertainment tends to be more satisfied. Also the Ease of online booking and online boarding tends to be negatively coorelated.
 
 Pie Chart:
-<img width="366" height="229" alt="Image" src="https://github.com/user-attachments/assets/fa4e933f-d390-4020-916d-c6588dd0e1e5" />
-This chart shows the percent of 
+<img width="385" height="220" alt="Image" src="https://github.com/user-attachments/assets/194c17e0-d956-4622-8f57-78e4b981226b" />
+
+This chart shows the percent of customers which are satisfied and dissatisfied in a visual format. 
+
+## KPI Cards used:
+All the KPI Cards shows the filtered insights of the input like Passenger type, Gender, Travel Class and Travel type.
+. Total Passengers
+. Average Passenger Age
+. Passenger Dissatisfaction
+. Passenger Satisfaction
+
+
 
 
 
