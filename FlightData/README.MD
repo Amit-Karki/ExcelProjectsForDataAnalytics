@@ -1,11 +1,7 @@
-# ✈️ Flight Passenger Satisfaction Dashboard
+#  Flight Passenger Satisfaction Dashboard
 
-##  📋 Introduction
-This dataset is from Kaggle and covers an airline's passengers — Frequent 
-and Rare customers, flying in different classes (Eco, Eco Plus, Business) 
-and travel types (Business, Personal) — who reported satisfaction or 
-dissatisfaction based on features like inflight service, seat comfort, 
-and others, each rated on a scale of 0 to 5.
+##   Introduction
+Flight Service dashboard is extracted from Kaggle and the dataset is modified a little bit inorder to build a interactive dashboard. The Dashboard allows the user to get insights like Average Passenger Age, Total Passengers, Most Travelled Routes etc based on the input like Passenger type, Gender, Travel type etc and based on the input selected it dynamically updates the insights and graphs based on it.
 
 This project focuses on extracting valuable insights from that data and 
 building an interactive dashboard that lets airline staff view total 
@@ -22,7 +18,7 @@ live by the criteria they select.
   even when service quality is good.
 
 ##  🎥 Dashboard Demo
-https://github.com/user-attachments/assets/adf6ae8a-7707-4d6d-870b-29cccec8068d
+https://github.com/user-attachments/assets/9868bf60-3ef6-4b7e-a83c-9e9f49c7f985
 
 ## Input Validation:
 . Passenger type
