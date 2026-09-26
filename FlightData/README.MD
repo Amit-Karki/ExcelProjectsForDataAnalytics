@@ -1,12 +1,8 @@
-#  Flight Passenger Satisfaction Dashboard
+#  Airline Passenger Satisfaction & Experience Dashboard
 
 ##   Introduction
-Flight Service dashboard is extracted from Kaggle and the dataset is modified a little bit inorder to build a interactive dashboard. The Dashboard allows the user to get insights like Average Passenger Age, Total Passengers, Most Travelled Routes etc based on the input like Passenger type, Gender, Travel type etc and based on the input selected it dynamically updates the insights and graphs based on it.
+Dataset used for Airline Passenger Satisfaction & Experience Dashboard is extracted from Kaggle and the dataset is modified  inorder to build an interactive fully functional  dashboard. This  Dashboard is valuable for Marketing and Passenger Segmentation analyst to get precious insights like Average Passenger Age, Total Passengers, Most Travelled Routes etc based on the input selected  like Passenger type, Gender, Travel type etc and based on the input selected it dynamically updates the insights and graphs based on it.
 
-This project focuses on extracting valuable insights from that data and 
-building an interactive dashboard that lets airline staff view total 
-customer count, satisfaction %, average customer age, and more — filtered 
-live by the criteria they select.
 
 ## 🔍  Key Insights
 - Frequent customers report higher satisfaction than rare/first-time customers.
@@ -51,10 +47,6 @@ All the KPI Cards shows the filtered insights of the input like Passenger type, 
 . Average Passenger Age
 . Passenger Dissatisfaction
 . Passenger Satisfaction
-
-
-
-
 
 ##  🛠️ Excel Tools & Skills Used
 - **Formulas & Functions**🧮 — AVERAGEIFS and SUMIFS with dynamic wildcard 
