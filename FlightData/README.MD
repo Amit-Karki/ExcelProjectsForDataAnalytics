@@ -14,18 +14,20 @@ Dataset used for Airline Passenger Satisfaction & Experience Dashboard is extrac
   even when service quality is good.
 
 ##  🎥 Dashboard Demo
-https://github.com/user-attachments/assets/9868bf60-3ef6-4b7e-a83c-9e9f49c7f985
+https://github.com/user-attachments/assets/d080135f-d690-4f11-8367-837c4aaf7690
 
 ## Input Validation:
-. Passenger type
-. Gender 
-. Travel type 
-. Travel Class
+- Passenger type: (Frequent Customer, Rare Customer, All)
+- Gender: (M, F, All)
+- Travel type: (Personal, Business, All)
+- Travel Class: (Eco, Business, Eco plus, All)
 
 - A correlation chart ranking which in-flight service factors most affect 
   satisfaction, sorted in descending order
 
 ## Graphs used:
+
+- Bar Chart- Correlation graph
 <img width="394" height="230" alt="Image" src="https://github.com/user-attachments/assets/86446719-6338-4143-8e69-4effbee8ae29" />
 
 This is a bar chart used to show the top factor driving the Customer Satisfaction in descending order. The used input is given below:
